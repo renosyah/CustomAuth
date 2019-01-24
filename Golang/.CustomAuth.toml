@@ -1,0 +1,19 @@
+[app]
+name = "Custom Auth"
+version = "0.0.1"
+host = "localhost"
+port = 9000
+port_grpc = 8000
+
+[database]
+host = "127.0.0.1"
+port = 3306
+name = "custom_auth_db"
+username = "root"
+password = ""
+
+[template]
+customer_header = "template/customer/customer_header.html"
+customer_footer = "template/customer/customer_footer.html"
+customer_login = "template/customer/customer_login.html"
+customer_register = "template/customer/customer_register.html"
